@@ -108,8 +108,10 @@ while True:
 
     if pilihan == "1":
         hasil = hitung_bunga_tunggal()
+        print(f"\n{hasil}")
     elif pilihan == "2":
         hasil = hitung_bunga_majemuk()
+        print(f"\n{hasil}")
     elif pilihan == "3":
         exit()
     else:
